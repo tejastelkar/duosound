@@ -1,0 +1,24 @@
+# Build artifacts
+.build/
+dist/
+*.dmg
+*.app
+
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+.swiftpm/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temp / dev files
+test_*.swift
+.superpowers/
+.claude/
+
+# SPM
+.package.resolved

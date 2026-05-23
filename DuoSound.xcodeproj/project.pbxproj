@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C104CCFC2103A7DCA151A45 /* DeviceRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A86BEB34226CA190D5E09B /* DeviceRowView.swift */; };
+		1D96DDCDFCEE63F231895EC4 /* ActionBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729FC6B9A7F98634F8A0E9A4 /* ActionBarView.swift */; };
+		4F395AA32A12E553A7C44EA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0595AF0B0DBB4D8C763D2906 /* ContentView.swift */; };
+		6B75180F274CC9364B28063A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01AEDE22BB25F27ED3BFB17C /* AudioToolbox.framework */; };
+		A0B9EF4C7717180118F2E14B /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A8B8EBD3C5EFD21855616C /* BannerView.swift */; };
+		A6B0A9ADE4796C74A3FD9A86 /* AudioDeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376B36F73CA256B512F03281 /* AudioDeviceManager.swift */; };
+		A9BF7B57ACD12000B8D150CE /* PermissionGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417289A7B98229638E07CDF8 /* PermissionGateView.swift */; };
+		B390A1A5652FF51F75BF191B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56861073D17E0E0662746967 /* Assets.xcassets */; };
+		C01FF0658B88601F5F20E57F /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B3CDBC9E336532F7254A28 /* CoreAudio.framework */; };
+		D911F59DEBE43E7AC12325E8 /* DuoSoundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A520109CEC8B43E6A2D4F91 /* DuoSoundApp.swift */; };
+		DBE6A08DA2D9134E583406E2 /* AudioDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B476242440366E463F490827 /* AudioDevice.swift */; };
+		E5131E31DA91C6B9C4CDFA32 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4CD35867278C5657AB5E9 /* AppState.swift */; };
+		F3344E833B0253875FA726B2 /* AggregateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCCF67930B284DE8977F110 /* AggregateCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01AEDE22BB25F27ED3BFB17C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		03A8B8EBD3C5EFD21855616C /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		0595AF0B0DBB4D8C763D2906 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A520109CEC8B43E6A2D4F91 /* DuoSoundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuoSoundApp.swift; sourceTree = "<group>"; };
+		376B36F73CA256B512F03281 /* AudioDeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDeviceManager.swift; sourceTree = "<group>"; };
+		417289A7B98229638E07CDF8 /* PermissionGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionGateView.swift; sourceTree = "<group>"; };
+		47A86BEB34226CA190D5E09B /* DeviceRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRowView.swift; sourceTree = "<group>"; };
+		4DCE8D66114B3D6F3B74DA48 /* DuoSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuoSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56861073D17E0E0662746967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64B3CDBC9E336532F7254A28 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		729FC6B9A7F98634F8A0E9A4 /* ActionBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionBarView.swift; sourceTree = "<group>"; };
+		A7F4CD35867278C5657AB5E9 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B476242440366E463F490827 /* AudioDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDevice.swift; sourceTree = "<group>"; };
+		BDCCF67930B284DE8977F110 /* AggregateCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggregateCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C878917E3DEA2B60BB3EC98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01FF0658B88601F5F20E57F /* CoreAudio.framework in Frameworks */,
+				6B75180F274CC9364B28063A /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		279D5495D0327DBFF3044688 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				729FC6B9A7F98634F8A0E9A4 /* ActionBarView.swift */,
+				BDCCF67930B284DE8977F110 /* AggregateCardView.swift */,
+				03A8B8EBD3C5EFD21855616C /* BannerView.swift */,
+				47A86BEB34226CA190D5E09B /* DeviceRowView.swift */,
+				417289A7B98229638E07CDF8 /* PermissionGateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		39054E67F0C804F88BC1D916 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE8D66114B3D6F3B74DA48 /* DuoSound.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		744B10306172DF0D97E328F0 /* DuoSound */ = {
+			isa = PBXGroup;
+			children = (
+				56861073D17E0E0662746967 /* Assets.xcassets */,
+				0595AF0B0DBB4D8C763D2906 /* ContentView.swift */,
+				0A520109CEC8B43E6A2D4F91 /* DuoSoundApp.swift */,
+				85A633B02395C480CB2D4C99 /* Models */,
+				A77559E4C103DC326A47E0CB /* Services */,
+				BCFC694695193D0E7E737597 /* State */,
+				279D5495D0327DBFF3044688 /* Views */,
+			);
+			path = DuoSound;
+			sourceTree = "<group>";
+		};
+		7F5D3FA8C24AE17F74868045 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01AEDE22BB25F27ED3BFB17C /* AudioToolbox.framework */,
+				64B3CDBC9E336532F7254A28 /* CoreAudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85A633B02395C480CB2D4C99 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B476242440366E463F490827 /* AudioDevice.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8DF1E2CB8905ABE8DE577F46 = {
+			isa = PBXGroup;
+			children = (
+				744B10306172DF0D97E328F0 /* DuoSound */,
+				7F5D3FA8C24AE17F74868045 /* Frameworks */,
+				39054E67F0C804F88BC1D916 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A77559E4C103DC326A47E0CB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				376B36F73CA256B512F03281 /* AudioDeviceManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BCFC694695193D0E7E737597 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				A7F4CD35867278C5657AB5E9 /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C47451E0CBADBD9F43CB0629 /* DuoSound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E1B1E300E90DAE3AD7A4AD1 /* Build configuration list for PBXNativeTarget "DuoSound" */;
+			buildPhases = (
+				147F80F8FB7C8A75701BBAB3 /* Sources */,
+				36FBAFEA514F7AD16CF8F275 /* Resources */,
+				3C878917E3DEA2B60BB3EC98 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuoSound;
+			packageProductDependencies = (
+			);
+			productName = DuoSound;
+			productReference = 4DCE8D66114B3D6F3B74DA48 /* DuoSound.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D606F05F238AEE9FBCBE4954 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C47451E0CBADBD9F43CB0629 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 91A4F3A2196CD9F835A2E8D1 /* Build configuration list for PBXProject "DuoSound" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8DF1E2CB8905ABE8DE577F46;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 39054E67F0C804F88BC1D916 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C47451E0CBADBD9F43CB0629 /* DuoSound */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36FBAFEA514F7AD16CF8F275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B390A1A5652FF51F75BF191B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		147F80F8FB7C8A75701BBAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D96DDCDFCEE63F231895EC4 /* ActionBarView.swift in Sources */,
+				F3344E833B0253875FA726B2 /* AggregateCardView.swift in Sources */,
+				E5131E31DA91C6B9C4CDFA32 /* AppState.swift in Sources */,
+				DBE6A08DA2D9134E583406E2 /* AudioDevice.swift in Sources */,
+				A6B0A9ADE4796C74A3FD9A86 /* AudioDeviceManager.swift in Sources */,
+				A0B9EF4C7717180118F2E14B /* BannerView.swift in Sources */,
+				4F395AA32A12E553A7C44EA0 /* ContentView.swift in Sources */,
+				1C104CCFC2103A7DCA151A45 /* DeviceRowView.swift in Sources */,
+				D911F59DEBE43E7AC12325E8 /* DuoSoundApp.swift in Sources */,
+				A9BF7B57ACD12000B8D150CE /* PermissionGateView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09AE3876C12DECD7C0B6356B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		2A4BBE50C2F1F0C2C70984BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DuoSound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duosound.app;
+				PRODUCT_NAME = DuoSound;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		81F1104CE626BF0148FFAFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		BAA19F8C05322B0E57EC16F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DuoSound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duosound.app;
+				PRODUCT_NAME = DuoSound;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E1B1E300E90DAE3AD7A4AD1 /* Build configuration list for PBXNativeTarget "DuoSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4BBE50C2F1F0C2C70984BD /* Debug */,
+				BAA19F8C05322B0E57EC16F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		91A4F3A2196CD9F835A2E8D1 /* Build configuration list for PBXProject "DuoSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09AE3876C12DECD7C0B6356B /* Debug */,
+				81F1104CE626BF0148FFAFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D606F05F238AEE9FBCBE4954 /* Project object */;
+}
